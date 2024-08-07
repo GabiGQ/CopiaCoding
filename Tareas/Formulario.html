@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+</head>
+<body>
+<h1>¡Unete a la comunidad!</h1>
+<form action="#" method="POST">
+    <label for="nombre"> Nombre: </label>
+    <input type="text" id="nombre" name="nombre"/> <br/> <br/> 
+
+    <label for="apellido"> Apellido: </label>
+    <input type="text" id="apellido" name="apellido"/> <br/> <br/> 
+
+    <label for="correo_electronico"> Correo Electronico: </label>
+    <input type="text" id="correo_electronico" name="correo_electronico"/> <br/> <br/> 
+
+    <label for="contraseña"> Contraseña: </label>
+    <input type="password" id="contraseña" name="contraseña"/> <br/> <br/> 
+
+    <label for="contraseña"> Repetir Contraseña: </label>
+    <input type="password" id="contraseña" /> <br/> <br/> 
+
+    <label for="fecha_nacimiento">Fecha de nacimiento: </label>
+    <input type="date" id="fecha_nacimiento" name="fecha_nacimiento"/> <br/> <br/>
+
+    <label for="genero"> Genero: </label>
+    <input type="radio" id="masculino" name="genero"/> 
+    <label for="masculino">Masculino</label>
+    <input type="radio" id="femenino" name="genero"/>
+    <label for="femenino"> Femenino </label>
+    <input type="radio" id="nodecirlo" name="genero"/>
+    <label for="nodecirlo"> Prefiero no decirlo </label>
+    <br/> <br/> 
+
+    <label for="comentario"> Hablanos de ti: </label>
+    <textarea id="comentario" rows="6" cols="30"></textarea> <br/><br/>
+    
+    <label for="interes"> Selecciona tus intereses: </label>
+    <select id="interes" name="interes">
+        <option value="1"> Deportes </option>
+        <option value="2">Musica</option>
+        <option value="3">Arte</option>
+        <option value="4">Ciencias</option>
+        <option value="5">Matematicas</option>
+        <option value="6">Lenguaje y comunicación</option>
+    </select>
+    <br/><br/>
+
+    <input type="submit" value="Unirse"/>
+
+
+
+</form>
+</body>
+</html>

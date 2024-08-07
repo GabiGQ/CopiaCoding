@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <title>Evento On Click</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1>
+                Petlopedia
+            </h1>
+            <form class="search-form">
+                <input type="search" placeholder="Buscar mascotas ">
+            </form>
+            <button class="btn" id="iniciarSesion"> 
+                Iniciar Sesión
+            </button>
+
+    </header>
+
+    <div class="container-2">
+    <main>
+        <div class="container">
+        
+            <div class="caja">
+                <h2> Gato Atigrado </h2>
+                <p><i>sustantivo</i></p>
+                <h4> Plural: Gatos Atigrados <br/> Un gato con un pelaje distintivo que presenta rayas, puntos o patrones en remolino, usualmente con una marca en forma de "M" en su frente </h4>
+                <button class="btn-megusta1"  data-title="Gato Atigrado" >
+                <span class="numero1"> 22 </span>
+                    me gusta
+                </button>
+            </div>
+            
+            <div class="caja">
+                <h2> Golden Retriever </h2>
+                <p><i>sustantivo</i></p>
+                <h4> Plural: Golden Retrievers <br/> Una raza de perros amistosa, inteligente y devota, conocida por su pelaje dorado y su habilidad para recuperar objetos sin dañarlos </h4>
+                <button class="btn-megusta2"  data-title="Golden Retriever">
+                    <span class="numero2"> 47 </span>
+                    me gusta
+                </button>
+                
+            </div>
+        </div>
+    </main>
+    <aside class="caja" >
+        <h4> Petlopedia está definida por TI</h4>
+        <button class="btn-definiciones" id="definicion"> Agregar Definición </button>
+    </aside>
+</div> 
+</body>
+</html>

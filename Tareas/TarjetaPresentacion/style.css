@@ -1,0 +1,54 @@
+.container {
+    width: 850px;
+    margin: 0 auto;
+    font-family: "Montserrat";
+}
+
+.imagenperfil {
+    width: 130px;
+    height: auto;
+    margin: -45px 20px 10px;
+    display: block;
+    border-radius: 50%;
+    background-color: green;
+    z-index:1;
+    border: 2px solid white;
+
+    
+
+}
+.tarjeta {
+    width: auto;
+    height: auto;
+    border-radius: 3%;
+    margin: 15px ;
+}
+.barra-superior{
+    width: auto;
+    height: 80px;
+    background-color: #00bcd4;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+
+
+}
+
+.button {
+    font-family: "Montserrat";
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    color: black;
+    display: flex;
+    border-radius: 5px;
+    cursor:pointer;
+    border:none;
+    margin: 15px;
+
+
+}
+p {
+    margin-left: 20px;
+}
+h2 {
+    margin-left: 20px;
+}
