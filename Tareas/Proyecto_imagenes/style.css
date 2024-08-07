@@ -1,0 +1,59 @@
+#gatos {
+    width: auto;
+    height: auto;
+    background-color: rgb(238, 226, 95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#gatos2 {
+    width: auto;
+    height: auto;
+    background-color: rgb(233, 101, 101);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#gatos3 {
+    width: auto;
+    height: auto;
+    background-color: rgb(145, 131, 208);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+img {
+    width: 150px;
+    height: 150px;
+    margin: 0 10px;
+    display: flex;
+}
+
+footer{
+    background-color: yellowgreen;
+    width: auto;
+    font-size: smaller; 
+    justify-content: center;
+    display: flex; 
+}
+.titulo  {
+    background-color: antiquewhite;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulo h1 {
+    margin: 10px;
+    font-size: large;
+    font-weight: 560; 
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+
+}
