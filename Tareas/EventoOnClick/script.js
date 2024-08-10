@@ -14,7 +14,7 @@ login.addEventListener('click', function btnIniciarSesion(evento){
         evento.target.innerText = "Iniciar Sesión"
     }
 
-} )
+})
 
 
 definicion.addEventListener('click', function btnDefinicion(evento){

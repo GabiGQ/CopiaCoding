@@ -1,0 +1,201 @@
+.container1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    background-color: rgb(221, 215, 215);
+    width: auto;
+}
+.navbar1 {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+.navwhite {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+.nav-scores {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px; 
+    padding: 10px;
+    margin: 0; 
+}
+.nav-scores li {
+    margin: 0 10px;
+}
+.navblack {
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo {
+    background-color: red;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 5px 20px;
+    padding-right: 30px;
+    position: relative;
+    display: inline-block;
+    clip-path: polygon(10% 0%, 90% 0%, 80% 100%, 0% 100%);
+}
+.nav-iconos {
+    display: flex;
+    align-content: center;
+}
+.nav-iconos img {
+    width: 60%;
+}
+.nav-deportes {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin:0;
+
+}
+.nav-iconos {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin:0;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 30%;
+}
+main  {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+    width: 60%;
+}
+.cuadro1 {
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cuadro2 {
+    margin:20px;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.btn-group {
+    gap:10px
+}
+.btn1 {
+    background-color: yellow;
+}
+
+.cuadro3 {
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.final {
+    padding-top: 20px;
+    border-top: 2px solid black;
+    margin: 20px auto 0;
+    text-align: center;
+}
+.titulo {
+    display: flex;
+    justify-content: start; 
+    align-items: start; 
+    text-align: start; 
+    gap: 90px; 
+    margin: 30px 30px 30px 30px;
+    padding: 25px;
+    flex-wrap: wrap;
+    
+}
+.p1 {
+    border-top: 2px solid black;
+    padding-top: 10px;
+}
+.cuadro1 h3 {
+    padding-top: 10px;
+}
+.ninjas {
+    color:rgb(4, 153, 168);
+    font-size: 40px;
+}
+.pirates {
+    color:rgb(231, 41, 57);
+    font-size: 40px;
+}
+.score1, .score2 {
+    font-size: 55px;
+}
+.imagenninjas{
+    width: 70%; 
+    margin-bottom: 10px; 
+}
+.imagenpirates {
+    width: 65%;
+    margin-bottom: 10px;
+} 
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.circulo {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 5px; 
+}
+.live-container {
+    display: flex;
+    align-items: center;
+    
+}
